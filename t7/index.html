@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <!-- form is used to send the data to the server -->
+    <h1>form application for jee mains</h1>
+    <form action="post">
+        <div>
+            <label for="username">enter the user name:</label>
+            <input type="text" id="username" name="username" placeholder="enter ur user name">
+        </div>
+        <!-- div is used for spacing -->
+        <!-- we have done label input radio -->
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+        <!-- the label tag must be wrritten after input tag -->
+        <div>
+            <input type="checkbox" id="subscribe"
+            name="subscribe" value="yes">
+            <label for="subscribe"> subcribe karo guys</label>
+        </div>
+        <div>
+            <label for="comment">comment karo</label>
+            <textarea name="comment" id="comment" rows="6" cols="70">
+            </textarea>
+        </div>
+        <div>
+            <label for="fruits"> select some fruits guys:</label>
+            
+            <select name="fruits" id="fruits">
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+                <option value="orange">orange</option>
+                <option value="kiwi">kiwi</option>
+                <option value="guava">guava</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
